@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  position: relative;
+
+}
+
+.logo {
+  height: 50px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+    color: #f4f4f4;
+}
+
+
+main {
+  padding: 20px;
+  background-color: white;
+  max-width: 800px;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.login-form label,
+.login-form input,
+.login-form button {
+  margin: 10px 0;
+}
+
+.exterior-photography img,
+.interior-photography img,
+.floor-plan img {
+  width: 100%;
+  max-width: 300px;
+  margin: 10px;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
